@@ -1,0 +1,4 @@
+import matplotlib.pyplot as plt
+import numpy 
+#import torch
+plt.imshow(images[3].numpy().squeeze(),cmap='Greys_r')

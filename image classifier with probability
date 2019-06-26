@@ -1,0 +1,8 @@
+import helper
+dataiter=iter(trainloader)
+images,labels=next(dataiter)
+image=images.view(images.shape[0],1,784)
+#images.resize_(64,1,784)
+#img_indx=0
+a=m.forward(image[0,:])
+helper.view_classify(image[0].view(1,28,28),a)

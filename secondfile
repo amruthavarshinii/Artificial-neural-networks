@@ -1,0 +1,6 @@
+dataitem=iter(trainloader)
+images,labels=next(dataitem)
+print(type(images.shape))
+print(type(labels.shape))
+print(images)
+print(labels)
